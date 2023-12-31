@@ -8,6 +8,8 @@ _ReSharper*
 *.dir
 *.vcxproj*
 *.sln
+*.idb
+*.pdb
 .vs
 CMakeSettings.json
 Win32
