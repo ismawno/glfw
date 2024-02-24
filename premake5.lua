@@ -12,7 +12,6 @@ files
    "include/**.h",
    "src/glfw_config.h",
    "src/context.c",
-   "src/egl_context.c",
    "src/init.c",
    "src/input.c",
    "src/monitor.c",
