@@ -55,7 +55,9 @@ filter "system:macosx"
 filter "system:windows"
 
    if _ACTION == "gmake" or _ACTION == "gmake2" then
-      toolset "gcc"
+      prebuildcommands {
+         "export CC=gcc"
+      }
    end
 
    files
