@@ -56,7 +56,7 @@ filter "system:windows"
 
    if _ACTION == "gmake" or _ACTION == "gmake2" then
       prebuildcommands {
-         "export CC=gcc"
+         "set CC=gcc"
       }
    end
 
