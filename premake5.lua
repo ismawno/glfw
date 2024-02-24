@@ -54,6 +54,10 @@ filter "system:macosx"
 
 filter "system:windows"
 
+   if _ACTION == "gmake" or _ACTION == "gmake2" then
+      toolset "gcc"
+   end
+
    files
    {
       "src/win32_init.c",
